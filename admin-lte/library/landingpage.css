@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Roboto&display=swap");
+
+.navbar-brand span {
+  font-family: "Kalam", cursive;
+  color: #00bfff;
+}
+.logo {
+  margin-right: 10px;
+}
+.nav-link {
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+.jumbotron {
+  margin-top: 3.5rem;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  .jumbotron {
+    height: 100%;
+  }
+  .display-4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30pt;
+  }
+  .lead {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+}
+@media (min-width: 992px) {
+}
+
+.sapa img {
+  margin: 10px 0px;
+}
