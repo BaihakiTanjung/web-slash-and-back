@@ -54,18 +54,18 @@
     <section id="form">
       <div class="container">
         <h1 class="text-center text-capitalize">login</h1>
-        <div class="content">
+        <div class="content mt-3">
           <div class="row">
             <div class="col m-auto">
               <form>
                 <div class="form-group email">
                   <label for="exampleInputEmail1" class="tulisan"
-                    >Username :</label
+                    >Email :</label
                   >
                   <input
                     type="email"
                     class="form-control email"
-                    id="exampleInputEmail1"
+                    id="email"
                     aria-describedby="emailHelp"
                   />
                 </div>
@@ -76,14 +76,23 @@
                   <input
                     type="password"
                     class="form-control password"
-                    id="exampleInputPassword1"
+                    id="password"
                   />
                 </div>
                 <div class="submit">
-                  <button type="submit" class="btn btn-primary tombol">
+                  <button
+                    onclick="handleLogin()"
+                    type="button"
+                    class="btn btn-primary tombol"
+                  >
                     Sign In
                   </button>
-                  <a href="register.html" class="tombol">registrasi user</a>
+                  <a
+                    onclick="handleRegister()"
+                    href="register.html"
+                    class="tombol"
+                    >Register</a
+                  >
                 </div>
               </form>
             </div>
@@ -93,6 +102,7 @@
     </section>
 
     <!-- selesai login -->
+    <script src="../assets/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
