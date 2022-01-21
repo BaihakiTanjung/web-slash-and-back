@@ -16,6 +16,19 @@
 .jumbotron {
   margin-top: 3.5rem;
 }
+#footer {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  padding: 10px 0;
+  width: 75%;
+  align-items: center;
+}
+
 @media (min-width: 0) and (max-width: 576px) {
   .jumbotron {
     height: 100%;
