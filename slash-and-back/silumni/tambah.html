@@ -227,7 +227,7 @@
                       >
                       <div class="col-8">
                         <input
-                          id="text"
+                          id="programStudi"
                           name="text"
                           type="text"
                           class="form-control"
@@ -239,7 +239,11 @@
                         >Tahun Masuk</label
                       >
                       <div class="col-1">
-                        <input type="number" id="text" class="form-control" />
+                        <input
+                          type="number"
+                          id="tahunMasuk"
+                          class="form-control"
+                        />
                       </div>
                     </div>
                     <div class="form-group row lulus">
@@ -247,7 +251,11 @@
                         >Tahun Lulus</label
                       >
                       <div class="col-1">
-                        <input type="number" id="text" class="form-control" />
+                        <input
+                          type="number"
+                          id="tahunLulus"
+                          class="form-control"
+                        />
                       </div>
                     </div>
                     <div class="form-group row">
@@ -258,7 +266,7 @@
                         <input
                           type="text"
                           name="text"
-                          id="text"
+                          id="alamatLinkedin"
                           class="form-control"
                         />
                       </div>
@@ -268,7 +276,12 @@
                         >Pekerjaan</label
                       >
                       <div class="col-8">
-                        <input type="text" name="" id="" class="form-control" />
+                        <input
+                          type="text"
+                          name=""
+                          id="pekerjaan"
+                          class="form-control"
+                        />
                       </div>
                     </div>
                     <!-- email text -->
@@ -279,7 +292,7 @@
                       >
                       <div class="col-8">
                         <textarea
-                          id="textarea"
+                          id="alamatKantor"
                           name="textarea"
                           cols="40"
                           rows="5"
@@ -292,12 +305,13 @@
                       <div class="col-4"></div>
                       <div class="col-4">
                         <div class="submit">
-                          <a
+                          <button
+                            onclick="addData()"
                             class="btn btn-primary tombol"
-                            href="./dashboard.html"
+                            type="button"
                           >
                             Tambah
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </div>
